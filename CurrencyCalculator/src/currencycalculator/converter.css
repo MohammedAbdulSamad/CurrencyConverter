@@ -1,0 +1,49 @@
+.root{
+    -fx-background-color: #383838;
+}
+
+.label {
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #FFFFFF;
+}
+
+.button {
+   /* -fx-background-color:  #b22222;
+    -fx-text-fill: #c2c2c2;*/
+       -fx-background-color: red;
+    -fx-border-style: solid;
+    -fx-border-color: #FFFFFF;
+    -fx-border-radius: 20;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 11;
+    -fx-border-radius: 15;
+    /*-fx-font-weight: bold;*/
+    -fx-background-radius: 15;
+
+}
+
+.textField {
+    -fx-background-color: #2d2d2d;
+   /* -fx-border-color: #FFFFFF;*/
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 11;
+    border-bottom: solid;
+}
+
+.comboBox {
+    -fx-background-color: #383838;
+    -fx-border-style: solid;
+    -fx-border-color: #FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 11;
+}
+
+.comboBox .list-cell {
+    -fx-background: #383838;
+   /* -fx-background-color: transparent;*/
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell{
+    -fx-background-color: #383838;
+}
